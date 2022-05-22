@@ -24,16 +24,11 @@
             <a href="#home">Home</a>
             <a href="#">About</a>
             <a href="#">Product</a>
+            <a href="#">Career</a>
             <a href="#">Services</a>
             <a href="#" class="btn"> <span>Contact</span></a>
         </nav>
-
-        
-       
         <div class="fas fa-bars" id="menu-btn"></div>
-
-
-
     </header>
 
     {{-- Headers end --}}
@@ -50,6 +45,12 @@
     </section>
 
     {{-- Section Home end --}}
+
+    <section class="about-company">
+        <div class="">
+
+        </div>
+    </section>
 
 
     <script src="{{asset('assets/js/functionscript.js')}}" ></script>

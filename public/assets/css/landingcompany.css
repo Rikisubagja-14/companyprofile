@@ -213,21 +213,22 @@ section {
         float: none;
         position: absolute;
         top:100%; right: -100%;
-        background: rgb(255, 255, 255);
+        background: rgb(0, 0, 0);
         color:#010103;
         width: 100%;
         height: calc(100vh - 2.5rem);
         transition: all;
+        padding: 2rem;
     }
-
-  
 
     .header-container .navbar.active{
         right:0;
     }
 
     .header-container .navbar a{
-        color:var(--black);
+        text-align: center;
+        border: 2px solid;
+        color:white;
         display: block;
         margin:1.5rem;
         padding:.5rem;
@@ -240,6 +241,7 @@ section {
         justify-content: center;
         text-align: center;
         padding-bottom: 60rem;
+        height:auto;
     }
 
     .home .content{
