@@ -46,22 +46,37 @@
 
     {{-- Section Home end --}}
 
+    {{-- start section why Company --}}
+
     <section class="about" id="about">
-        <h1 class="heading"><span>Why</span> Company</h1> 
+        <h1 class="heading"><span>Why</span> Company</h1>
         <div class="row">
             <div class="image">
-                <img src="{{ asset('assets/img/img-about.jpg') }}" alt=""/>
+                <img src="{{ asset('assets/img/img-about.jpg') }}" alt="" />
             </div>
             <div class="content">
                 <h3>what makes our Company?</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus qui ea ullam, enim tempora ipsum fuga alias quae ratione a officiis id temporibus autem? Quod nemo facilis cupiditate. Ex, vel?</p>
-                <a href="#" class="btn">learn more details about</a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus qui ea ullam, enim tempora
+                    ipsum fuga alias quae ratione a officiis id temporibus autem? Quod nemo facilis cupiditate. Ex, vel?
+                </p>
+                <a href="#" class="btn">learn more</a>
             </div>
         </div>
     </section>
 
+    {{-- end section why Company --}}
 
-    <script src="{{asset('assets/js/functionscript.js')}}" ></script>
+
+    {{-- start section testimonial --}}
+
+    <section class="testimonial" id="testimonial">
+       
+    </section>
+
+    {{-- end section testimonial --}}
+
+
+    <script src="{{ asset('assets/js/functionscript.js') }}"></script>
 </body>
 
 </html>
