@@ -70,11 +70,123 @@
     {{-- start section testimonial --}}
 
     <section class="testimonial" id="testimonial">
-       
+        <h1 class="heading"><span>Testimonial</span> Client</h1>
+        <div class="testi">
+
+            <div class="row">
+                <div class="image">
+                    <img src="{{ asset('assets/img/pic-1.png') }}" />
+                </div>
+                <div class="content">
+                    <h1>Fazri</h1>
+                    <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, nemo adipisci! Cumque
+                        autem
+                        atque ducimus cupiditate, consectetur sit placeat assumenda? Est nam corporis officiis vero
+                        sit
+                        quibusdam eius veniam ullam?</P>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="image">
+                    <img src="{{ asset('assets/img/pic-2.png') }}" />
+                </div>
+                <div class="content">
+                    <h1>Rangga</h1>
+                    <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, nemo adipisci! Cumque
+                        autem
+                        atque ducimus cupiditate, consectetur sit placeat assumenda? Est nam corporis officiis vero
+                        sit
+                        quibusdam eius veniam ullam?</P>
+
+                </div>
+                <div class="icons">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="image">
+                    <img src="{{ asset('assets/img/pic-3.png') }}" />
+                </div>
+                <div class="content">
+                    <h1>Riki</h1>
+                    <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, nemo adipisci! Cumque
+                        autem
+                        atque ducimus cupiditate, consectetur sit placeat assumenda? Est nam corporis officiis vero
+                        sit
+                        quibusdam eius veniam ullam?</P>
+
+                </div>
+                <div class="icons">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+        </div>
     </section>
 
     {{-- end section testimonial --}}
 
+
+    {{-- start section footer --}}
+    <section class="footer">
+        <div class="icons-container">
+
+            <div class="icons">
+                <i class="fas fa-clock"></i>
+                <h3>opening hours</h3>
+                <p>07:00am to 10:00pm</p>
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-phone"></i>
+                <h3>phone</h3>
+                <p>+123-456-7890</p>
+                <p>+111-222-3333</p>
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-envelope"></i>
+                <h3>email</h3>
+                <p>riki@gmail.com</p>
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-map"></i>
+                <h3>address</h3>
+                <p>Bandung, indonesi - 40141</p>
+            </div>
+
+        </div>
+
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+         </div>
+      
+         <div class="credit"> Power by <span>Riki Subagja</span> | all rights reserved! </div>
+    </section>
+    {{-- end section Footer --}}
 
     <script src="{{ asset('assets/js/functionscript.js') }}"></script>
 </body>
