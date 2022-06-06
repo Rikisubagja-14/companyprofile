@@ -172,14 +172,12 @@ section {
     font-family: 'Franklin Gothic Medium';
     font-size: 6rem;
     text-transform: capitalize;
-    color: rgb(255, 255, 255);
     text-align: center;
     background: #c31432;
-    /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #240b36, #c31432);
-    /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #240b36, #c31432);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+ 
 
 }
 
@@ -206,7 +204,9 @@ section {
 }
 
 .heading span {
-    color: rgb(237, 111, 1);
+    background: -webkit-linear-gradient(#eee, #333);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-transform: uppercase;
 }
 
@@ -266,7 +266,7 @@ section {
 }
 
 .about .row .content h3 {
-    background: -webkit-linear-gradient(#eee, rgba(255, 115, 0, 0.784));
+    background: -webkit-linear-gradient(#eee, #333);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 2rem;
@@ -410,6 +410,7 @@ section {
     text-align: center;
     padding-bottom: 10rem;
     background: rgb(0, 0, 0);
+    
 
 }
 
@@ -440,21 +441,25 @@ section {
 
 .footer .icons-container .icons h3 {
     font-size: 2rem;
-    color: white;
+    background: -webkit-linear-gradient(#eee, #333);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     padding: 1rem 0;
 }
 
 .footer .icons-container .icons p {
     line-height: 1.5;
     font-size: 1.7rem;
-    color: white;
+    background: -webkit-linear-gradient(#eee, #333);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-transform: none;
 }
 
 
 .footer .share {
     margin: 2rem 0;
-    padding-top: 10rem;
+    padding-top: 16rem;
 }
 
 .footer .share a {
@@ -469,7 +474,7 @@ section {
 }
 
 .footer .share a:hover {
-    background: rgb(0, 0, 0);
+    background: rgb(233, 86, 7);
 }
 
 .footer .credit {
@@ -478,13 +483,15 @@ section {
     border-top: var(--border);
     font-size: 2rem;
     color: white;
-    padding-top: 1rem;
+    padding-top: 8rem;
 }
 
 .footer .credit span {
     color: rgb(255, 255, 255);
-    border-bottom: var(--border);
+    border-bottom: .1rem solid rgb(132, 0, 255);
 }
+
+
 
 /* media queries  */
 @media (max-width:991px) {

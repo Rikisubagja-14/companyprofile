@@ -49,7 +49,7 @@
     {{-- start section why Company --}}
 
     <section class="about" id="about">
-        <h1 class="heading"><span>Why</span> Company</h1>
+        <h1 class="heading"><span>Why Company</span></h1>
         <div class="row">
             <div class="image">
                 <img src="{{ asset('assets/img/img-about.jpg') }}" alt="" />
@@ -70,7 +70,7 @@
     {{-- start section testimonial --}}
 
     <section class="testimonial" id="testimonial">
-        <h1 class="heading"><span>Testimonial</span> Client</h1>
+        <h1 class="heading"><span>Testimonial Client</span></h1>
         <div class="testi">
 
             <div class="row">
@@ -149,30 +149,30 @@
     {{-- start section footer --}}
     <section class="footer">
         <div class="icons-container">
-
+            
             <div class="icons">
                 <i class="fas fa-clock"></i>
                 <h3>opening hours</h3>
-                <p>07:00am to 10:00pm</p>
+                <p>08:00am to 17:00pm</p>
             </div>
 
             <div class="icons">
                 <i class="fas fa-phone"></i>
-                <h3>phone</h3>
-                <p>+123-456-7890</p>
-                <p>+111-222-3333</p>
+                <h3>phone number</h3>
+                <p>+622-9273-9839</p>
+                
             </div>
 
             <div class="icons">
                 <i class="fas fa-envelope"></i>
                 <h3>email</h3>
-                <p>riki@gmail.com</p>
+                <p>Pt.xxxxxxx@gmail.com</p>
             </div>
 
             <div class="icons">
                 <i class="fas fa-map"></i>
                 <h3>address</h3>
-                <p>Bandung, indonesi - 40141</p>
+                <p> Jl.Baranangsiang 40, Bandung, indonesia - 40141</p>
             </div>
 
         </div>
@@ -183,6 +183,7 @@
             <a href="#" class="fab fa-instagram"></a>
             <a href="#" class="fab fa-linkedin"></a>
          </div>
+         
       
          <div class="credit"> Power by <span>Riki Subagja</span> | all rights reserved! </div>
     </section>
